@@ -11,8 +11,8 @@ func _ready():
 
 
 func generate_level():
-	var walker = Walker.new(Vector2(9, 6), borders)
-	var map = walker.walk(500)
+	var walker = Walker.new(Vector2(15, 8), borders)
+	var map = walker.walk(200)
 	walker.queue_free()
 	for location in map:
 		tile_map.set_cellv(location, -1)
