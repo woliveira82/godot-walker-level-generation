@@ -12,7 +12,7 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "Walker",
 "language": "GDScript",
-"path": "res://Walker.gd"
+"path": "res://game/Walker.gd"
 } ]
 _global_script_class_icons={
 "Walker": ""
@@ -23,6 +23,15 @@ _global_script_class_icons={
 config/name="godot-walker-level-generation"
 run/main_scene="res://game/World.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=320
+window/size/height=180
+window/size/test_width=1024
+window/size/test_height=600
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
 
 [gui]
 
